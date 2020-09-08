@@ -1,0 +1,6 @@
+{
+  "cSpell.language": ",fr",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.markdownlint": true
+  }
+}
