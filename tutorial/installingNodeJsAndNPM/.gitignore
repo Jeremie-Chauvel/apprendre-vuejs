@@ -1,0 +1,2 @@
+# ignore npmbox decompressed archive
+.npmbox.cache
