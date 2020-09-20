@@ -8,12 +8,15 @@
   </head>
   <body>
     <div id="app">
-      <h1>Start with vuejs</h1>
+      <h1>{{ title }}</h1>
     </div>
   </body>
   <script>
     var app = new Vue({
       el: '#app',
+      data: {
+        title: "I'm starting with vuejs at: " + new Date().toLocaleString(),
+      },
     });
   </script>
 </html>
