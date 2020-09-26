@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Polos & T-Shirts | DIOR</title>
+    <script src="dev_vue.js"></script>
+  </head>
+  <body>
+    <div class="page-container" id="app">
+      <h1>Dior</h1>
+      <h2>{{ pageName }}</h2>
+      <h3>{{ pageDescription }}</h3>
+      <div class="filters-container">
+        <span
+          >Couleur:
+          <select>
+            <option value="all">toutes</option>
+          </select>
+        </span>
+      </div>
+      <div class="list-container">
+        <div v-for="product in filteredProducts" class="product-container">
+          <div class="product-image-container">
+            <img
+              class="product-image"
+              :src="product.imageSource"
+              :alt="product.imageDescription"
+            />
+            <div v-if="!product.demo" class="product-add-to-wishlist">
+              <img src="./heart_empty.svg" />
+            </div>
+          </div>
+
+          <div v-if="!product.demo" class="product-info">
+            <p v-if="product.new" class="product-new-label">#Nouveauté</p>
+            <p class="product-title">{{ product.title }}</p>
+            <p class="product-description">{{ product.description }}</p>
+            <p class="product-price">{{ product.price }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    var app = new Vue({
+      el: '#app',
+      data: {
+        pageName: 'T-SHIRTS & POLOS',
+        pageDescription:
+          'Confectionné avec les meilleurs cotons, le Jersey Dior Men assure une silhouette contemporaine et décontractée.',
+        products: [
+          {
+            new: true,
+            title: 'Polo DIOR AND JUDY BLAME',
+            imageSource: './polo_dior_and_judy_blame.jpeg',
+            imageDescription: 'Piqué de coton blanc',
+            description: 'Jersay de coton gris',
+            price: '600,00 €',
+            inWishlist: false,
+            color: 'lightGrey',
+          },
+          {
+            demo: true,
+            imageSource: './demo_tshirt_oversize_dior_and_shawn.webp',
+            imageDescription: 'DIOR AND SHAWN Oversized T-Shirt',
+            color: 'darkGrey',
+          },
+          {
+            title: 'T-shirt oversize DIOR AND SHAWN',
+            imageSource: './tshirt_oversize_dior_and_shawn.jpeg',
+            imageDescription: 'T-shirt oversize DIOR AND SHAWN Vue de face',
+            description: 'Jersay de coton gris',
+            price: '600,00 €',
+            inWishlist: false,
+            color: 'darkGrey',
+          },
+        ],
+        colorFilter: 'all',
+      },
+      methods: {
+        toggleInWishlist: function (product) {
+          this.products.splice(this.products.indexOf(product), 1, {
+            ...product,
+            inWishlist: !product.inWishlist,
+          });
+        },
+      },
+      computed: {
+        filteredProducts: function () {
+          return this.colorFilter === 'all'
+            ? this.products
+            : this.products.filter(({ color }) => color === this.colorFilter);
+        },
+      },
+    });
+  </script>
+  <style>
+    .page-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .filters-container {
+      width: calc(100% - 2 * 20px);
+      margin: 10px 20px 0;
+      padding: 10px;
+      border: 1px solid #e5e5e5;
+      border-width: 1px 0;
+    }
+
+    .list-container {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    .product-container {
+      flex: 1 0 auto;
+      margin-top: 15px;
+      margin-left: 15px;
+    }
+
+    .product-image-container {
+      position: relative;
+      width: 460px;
+    }
+    .product-image {
+      width: 460px;
+      height: auto;
+    }
+
+    .product-add-to-wishlist {
+      cursor: pointer;
+      position: absolute;
+      padding: 15px;
+      top: 0;
+      right: 0;
+    }
+
+    .product-price {
+      font-weight: bold;
+    }
+
+    .product-new-label {
+      margin-top: 12px;
+      font-weight: lighter;
+      color: #757575;
+    }
+
+    .product-title {
+      margin-top: 12px;
+      font-weight: bold;
+    }
+  </style>
+</html>
