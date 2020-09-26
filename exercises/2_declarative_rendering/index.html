@@ -12,7 +12,13 @@
       <h2>{{ pageName }}</h2>
       <h3>{{ pageDescription }}</h3>
       <div class="list-container">
-        <div class="product-container"></div>
+        <div class="product-container">
+          <div class="product-info">
+            <p class="product-title">{{ products[0].title }}</p>
+            <p class="product-description">{{ products[0].description }}</p>
+            <p class="product-price">{{ products[0].price }}</p>
+          </div>
+        </div>
       </div>
     </div>
   </body>
@@ -54,6 +60,15 @@
       flex: 1 0 auto;
       margin-top: 15px;
       margin-left: 15px;
+    }
+
+    .product-price {
+      font-weight: bold;
+    }
+
+    .product-title {
+      margin-top: 12px;
+      font-weight: bold;
     }
   </style>
 </html>
