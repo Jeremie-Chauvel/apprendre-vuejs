@@ -55,4 +55,4 @@ Si tu as une erreur et que tu vois seulement `{{ title }}` comme :
 ![Erreur avec titre dynamique](./error.png)
 Il est nécessaire que la balise qui contient l'app soit déjà defini avant d'initialiser l'instance vuejs, tu dois donc ajouter le script `new Vue` à la fin du body.
 
-Tu peux maintenant passer au rendu déclaratif de vuejs où nous commencerons à fabriquer le récapitulatif d'un produit
+Tu peux maintenant passer au rendu [déclaratif de vuejs](../DeclarativeRendering/README.md) où nous commencerons à fabriquer le récapitulatif d'un produit.

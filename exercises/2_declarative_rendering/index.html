@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Polos & T-Shirts | DIOR</title>
+    <script src="dev_vue.js"></script>
+  </head>
+  <body>
+    <div class="page-container" id="app">
+      <h1>Dior</h1>
+      <h2>{{ pageName }}</h2>
+      <h3>{{ pageDescription }}</h3>
+      <div class="list-container">
+        <div class="product-container"></div>
+      </div>
+    </div>
+  </body>
+  <script>
+    var app = new Vue({
+      el: '#app',
+      data: {
+        pageName: 'T-SHIRTS & POLOS',
+        pageDescription:
+          'Confectionné avec les meilleurs cotons, le Jersey Dior Men assure une silhouette contemporaine et décontractée.',
+        products: [
+          {
+            title: 'T-shirt oversize DIOR AND SHAWN',
+            imageSource: './tshirt_oversize_dior_and_shawn.jpeg',
+            imageDescription: 'T-shirt oversize DIOR AND SHAWN Vue de face',
+            description: 'Jersay de coton gris',
+            price: '600,00 €',
+          },
+        ],
+      },
+    });
+  </script>
+  <style>
+    .page-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .list-container {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    .product-container {
+      flex: 1 0 auto;
+      margin-top: 15px;
+      margin-left: 15px;
+    }
+  </style>
+</html>

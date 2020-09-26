@@ -1,0 +1,1 @@
+../../global/assets/scripts/dev_vue.js

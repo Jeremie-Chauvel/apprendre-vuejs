@@ -45,7 +45,7 @@ Pour débuter commencé par la première section: [Pourquoi utiliser un framewor
 ### Basique
 
 1. [Débuter avec Vue.js](./tutorial/startingWithVuejs/README.md)
-1. Rendu déclaratif
+1. [Rendu déclaratif](./tutorial/DeclarativeRendering/README.md)
 1. Conditions et boucles
 1. Gestion des entrées utilisateur
 1. Découper en composants réutilisable
