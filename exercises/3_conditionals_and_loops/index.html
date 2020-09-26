@@ -12,16 +12,16 @@
       <h2>{{ pageName }}</h2>
       <h3>{{ pageDescription }}</h3>
       <div class="list-container">
-        <div class="product-container">
+        <div v-for="product in products" class="product-container">
           <img
             class="product-image"
-            :src=" products[0].imageSource"
-            :alt=" products[0].imageDescription"
+            :src="product.imageSource"
+            :alt="product.imageDescription"
           />
           <div class="product-info">
-            <p class="product-title">{{ products[0].title }}</p>
-            <p class="product-description">{{ products[0].description }}</p>
-            <p class="product-price">{{ products[0].price }}</p>
+            <p class="product-title">{{ product.title }}</p>
+            <p class="product-description">{{ product.description }}</p>
+            <p class="product-price">{{ product.price }}</p>
           </div>
         </div>
       </div>
