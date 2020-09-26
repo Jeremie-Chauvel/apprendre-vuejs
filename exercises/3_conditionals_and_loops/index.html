@@ -18,7 +18,8 @@
             :src="product.imageSource"
             :alt="product.imageDescription"
           />
-          <div class="product-info">
+          <div v-if="!product.demo" class="product-info">
+            <p v-if="product.new" class="product-new-label">#Nouveauté</p>
             <p class="product-title">{{ product.title }}</p>
             <p class="product-description">{{ product.description }}</p>
             <p class="product-price">{{ product.price }}</p>
@@ -87,6 +88,12 @@
 
     .product-price {
       font-weight: bold;
+    }
+
+    .product-new-label {
+      margin-top: 12px;
+      font-weight: lighter;
+      color: #757575;
     }
 
     .product-title {
