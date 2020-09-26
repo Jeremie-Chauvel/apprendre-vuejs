@@ -13,6 +13,10 @@
       <h3>{{ pageDescription }}</h3>
       <div class="list-container">
         <div class="product-container">
+          <img
+            :src="products[0].imageSource"
+            :alt="products[0].imageDescription"
+          />
           <div class="product-info">
             <p class="product-title">{{ products[0].title }}</p>
             <p class="product-description">{{ products[0].description }}</p>
