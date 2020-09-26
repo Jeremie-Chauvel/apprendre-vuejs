@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Polos & T-Shirts | DIOR</title>
+    <script src="dev_vue.js"></script>
+  </head>
+  <body>
+    <div class="page-container" id="app">
+      <h1>Dior</h1>
+      <h2>{{ pageName }}</h2>
+      <h3>{{ pageDescription }}</h3>
+      <div class="list-container">
+        <div class="product-container">
+          <img
+            class="product-image"
+            :src=" products[0].imageSource"
+            :alt=" products[0].imageDescription"
+          />
+          <div class="product-info">
+            <p class="product-title">{{ products[0].title }}</p>
+            <p class="product-description">{{ products[0].description }}</p>
+            <p class="product-price">{{ products[0].price }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    var app = new Vue({
+      el: '#app',
+      data: {
+        pageName: 'T-SHIRTS & POLOS',
+        pageDescription:
+          'Confectionné avec les meilleurs cotons, le Jersey Dior Men assure une silhouette contemporaine et décontractée.',
+        products: [
+          {
+            new: true,
+            title: 'Polo DIOR AND JUDY BLAME',
+            imageSource: './polo_dior_and_judy_blame.jpeg',
+            imageDescription: 'Piqué de coton blanc',
+            description: 'Jersay de coton gris',
+            price: '600,00 €',
+          },
+          {
+            demo: true,
+            imageSource: './demo_tshirt_oversize_dior_and_shawn.webp',
+            imageDescription: 'DIOR AND SHAWN Oversized T-Shirt ',
+          },
+          {
+            title: 'T-shirt oversize DIOR AND SHAWN',
+            imageSource: './tshirt_oversize_dior_and_shawn.jpeg',
+            imageDescription: 'T-shirt oversize DIOR AND SHAWN Vue de face',
+            description: 'Jersay de coton gris',
+            price: '600,00 €',
+          },
+        ],
+      },
+    });
+  </script>
+  <style>
+    .page-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .list-container {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    .product-container {
+      flex: 1 0 auto;
+      margin-top: 15px;
+      margin-left: 15px;
+    }
+
+    .product-image {
+      width: 460px;
+      height: auto;
+    }
+
+    .product-price {
+      font-weight: bold;
+    }
+
+    .product-title {
+      margin-top: 12px;
+      font-weight: bold;
+    }
+  </style>
+</html>
