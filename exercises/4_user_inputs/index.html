@@ -27,8 +27,14 @@
               :src="product.imageSource"
               :alt="product.imageDescription"
             />
-            <div v-if="!product.demo" class="product-add-to-wishlist">
-              <img src="./heart_empty.svg" />
+            <div
+              v-if="!product.demo"
+              @click="toggleInWishlist(product)"
+              class="product-add-to-wishlist"
+            >
+              <img
+                :src="product.inWishlist ? './heart_full.svg' : './heart_empty.svg'"
+              />
             </div>
           </div>
 
