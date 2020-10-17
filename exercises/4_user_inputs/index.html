@@ -14,8 +14,10 @@
       <div class="filters-container">
         <span
           >Couleur:
-          <select>
+          <select v-model="colorFilter">
             <option value="all">toutes</option>
+            <option value="lightGrey">gris clair</option>
+            <option value="darkGrey">gris foncé</option>
           </select>
         </span>
       </div>
