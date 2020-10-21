@@ -48,7 +48,7 @@ Pour débuter commencé par la première section: [Pourquoi utiliser un framewor
 1. [Rendu déclaratif](./tutorial/DeclarativeRendering/README.md)
 1. [Conditions et boucles](./tutorial/ConditionalsAndLoops/README.md)
 1. [Gestion des entrées utilisateur](./tutorial/UserInputs/README.md)
-1. Découper en composants réutilisable
+1. [Découper en composants réutilisable](./tutorial/ComposingWithComponents/README.md)
 1. Point sur les concepts de base Vuejs
 
 ### Développer une application javascript vuejs moderne
