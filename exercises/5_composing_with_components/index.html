@@ -22,34 +22,65 @@
         </span>
       </div>
       <div class="list-container">
-        <div v-for="product in filteredProducts" class="product-container">
+        <product-item
+          v-for="product in filteredProducts"
+          :is-new="product.isNew"
+          :title="product.title"
+          :image-source="product.imageSource"
+          :image-description="product.imageDescription"
+          :description="product.description"
+          :price="product.price"
+          :demo="product.demo"
+        ></product-item>
+      </div>
+    </div>
+  </body>
+  <script>
+    Vue.component('productItem', {
+      props: [
+        'isNew',
+        'title',
+        'imageSource',
+        'imageDescription',
+        'description',
+        'price',
+        'demo',
+      ],
+      template: `
+        <div class="product-container">
           <div class="product-image-container">
             <img
               class="product-image"
-              :src="product.imageSource"
-              :alt="product.imageDescription"
+              :src="imageSource"
+              :alt="imageDescription"
             />
             <div
-              v-if="!product.demo"
-              @click="toggleInWishlist(product)"
+              v-if="!demo"
+              @click="toggleInWishlist"
               class="product-add-to-wishlist"
             >
               <img
-                :src="product.inWishlist ? './heart_full.svg' : './heart_empty.svg'"
+                :src="inWishlist ? './heart_full.svg' : './heart_empty.svg'"
               />
             </div>
           </div>
 
-          <div v-if="!product.demo" class="product-info">
-            <p v-if="product.isNew" class="product-new-label">#Nouveauté</p>
-            <p class="product-title">{{ product.title }}</p>
-            <p class="product-description">{{ product.description }}</p>
-            <p class="product-price">{{ product.price }}</p>
+          <div v-if="!demo" class="product-info">
+            <p v-if="isNew" class="product-new-label">#Nouveauté</p>
+            <p class="product-title">{{ title }}</p>
+            <p class="product-description">{{ description }}</p>
+            <p class="product-price">{{ price }}</p>
           </div>
         </div>
-      </div>
-    </div>
-  </body>
+      `,
+      data: () => ({ inWishlist: false }),
+      methods: {
+        toggleInWishlist: function () {
+          this.inWishlist = !this.inWishlist;
+        },
+      },
+    });
+  </script>
   <script>
     var app = new Vue({
       el: '#app',
@@ -65,7 +96,6 @@
             imageDescription: 'Piqué de coton blanc',
             description: 'Jersay de coton gris',
             price: '600,00 €',
-            inWishlist: false,
             color: 'lightGrey',
           },
           {
@@ -80,19 +110,10 @@
             imageDescription: 'T-shirt oversize DIOR AND SHAWN Vue de face',
             description: 'Jersay de coton gris',
             price: '600,00 €',
-            inWishlist: false,
             color: 'darkGrey',
           },
         ],
         colorFilter: 'all',
-      },
-      methods: {
-        toggleInWishlist: function (product) {
-          this.products.splice(this.products.indexOf(product), 1, {
-            ...product,
-            inWishlist: !product.inWishlist,
-          });
-        },
       },
       computed: {
         filteredProducts: function () {
