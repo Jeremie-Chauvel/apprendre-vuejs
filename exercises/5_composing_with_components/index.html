@@ -21,22 +21,19 @@
           </select>
         </span>
       </div>
-      <div class="list-container">
-        <product-item
-          v-for="product in filteredProducts"
-          :is-new="product.isNew"
-          :title="product.title"
-          :image-source="product.imageSource"
-          :image-description="product.imageDescription"
-          :description="product.description"
-          :price="product.price"
-          :demo="product.demo"
-        ></product-item>
-      </div>
+      <product-listing
+        :products="products"
+        :color-filter="colorFilter"
+      ></product-listing>
     </div>
   </body>
   <script src="./composants/product-item/product-item.js"></script>
   <link href="./composants/product-item/product-item.css" rel="stylesheet" />
+  <script src="./composants/product-listing/product-listing.js"></script>
+  <link
+    href="./composants/product-listing/product-listing.css"
+    rel="stylesheet"
+  />
   <script>
     var app = new Vue({
       el: '#app',
@@ -71,13 +68,6 @@
         ],
         colorFilter: 'all',
       },
-      computed: {
-        filteredProducts: function () {
-          return this.colorFilter === 'all'
-            ? this.products
-            : this.products.filter(({ color }) => color === this.colorFilter);
-        },
-      },
     });
   </script>
   <style>
@@ -94,13 +84,6 @@
       padding: 10px;
       border: 1px solid #e5e5e5;
       border-width: 1px 0;
-    }
-
-    .list-container {
-      margin-top: 30px;
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
     }
   </style>
 </html>
