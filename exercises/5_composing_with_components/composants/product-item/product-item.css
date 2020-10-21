@@ -1,0 +1,38 @@
+.product-container {
+  flex: 1 0 auto;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.product-image-container {
+  position: relative;
+  width: 460px;
+}
+
+.product-image {
+  width: 460px;
+  height: auto;
+}
+
+.product-add-to-wishlist {
+  cursor: pointer;
+  position: absolute;
+  padding: 15px;
+  top: 0;
+  right: 0;
+}
+
+.product-price {
+  font-weight: bold;
+}
+
+.product-new-label {
+  margin-top: 12px;
+  font-weight: lighter;
+  color: #757575;
+}
+
+.product-title {
+  margin-top: 12px;
+  font-weight: bold;
+}
