@@ -13,7 +13,7 @@ Vue.component('productItem', {
       <div class="product-image-container">
         <img
           class="product-image"
-          :src="imageSource"
+          :src="'http://localhost:3000/image/'+imageSource"
           :alt="imageDescription"
         />
         <div
@@ -22,7 +22,7 @@ Vue.component('productItem', {
           class="product-add-to-wishlist"
         >
           <img
-            :src="inWishlist ? './heart_full.svg' : './heart_empty.svg'"
+            :src="inWishlist ? 'http://localhost:3000/image/heart_full.svg' : 'http://localhost:3000/image/heart_empty.svg'"
           />
         </div>
       </div>
