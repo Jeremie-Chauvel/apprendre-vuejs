@@ -74,7 +74,7 @@ Pour débuter, commence par la première section: [Pourquoi utiliser un framewor
 ### Base de l'instance Vuejs
 
 1. Données et méthodes
-1. Cycle de vie d'un composant
+1. [Cycle de vie d'un composant](./tutorial/VuejsLifecycle/README.md)
 
 ### Syntaxe de template
 
