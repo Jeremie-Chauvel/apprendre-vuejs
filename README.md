@@ -28,11 +28,11 @@ npm --version
 
 ## Sujet
 
-Cette formation ce veux pratique, pour ce faire on va construire exercice par exercice une application de e-commerce basique.
+Cette formation ce veux pratique, pour ce faire on va construire, exercice par exercice, une application de e-commerce basique.
 
 ## Débuter
 
-Pour débuter commencé par la première section: [Pourquoi utiliser un framework frontend ?](./tutorial/whyShouldIUseAFramework/README.md)
+Pour débuter, commence par la première section: [Pourquoi utiliser un framework frontend ?](./tutorial/whyShouldIUseAFramework/README.md)
 
 ## Table des matières
 
