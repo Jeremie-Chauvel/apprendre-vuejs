@@ -1,0 +1,270 @@
+[
+  {
+    "imageSource": "Oversized_Dior_Oblique_T-Shirt.jpg",
+    "imageDescription": "Oversized Dior Oblique T-Shirt",
+    "demo": true
+  },
+  {
+    "imageSource": "T-shirt_oversize_Dior_Oblique_Vue_de_face_Jacquard_de_coton_eponge_bleu_marine.jpg",
+    "imageDescription": "T-shirt oversize Dior Oblique Vue de face",
+    "title": "T-shirt oversize Dior Oblique",
+    "description": "Jacquard de coton éponge bleu marine",
+    "price": "600,00 €",
+    "essential": true
+  },
+  {
+    "imageSource": "T-shirt_oversize_Dior_Oblique_perles_Vue_de_face_Jersey_de_coton_bleu_marine.jpg",
+    "imageDescription": "T-shirt oversize Dior Oblique perles Vue de face",
+    "title": "T-shirt oversize Dior Oblique perles",
+    "description": "Jersey de coton bleu marine",
+    "price": "650,00 €",
+    "isNew": true
+  },
+  {
+    "imageSource": "T-shirt_oversize_Christian_Dior_Atelier_Vue_de_face_Jersey_de_coton_noir.jpg",
+    "imageDescription": "T-shirt oversize Christian Dior Atelier Vue de face",
+    "title": "T-shirt oversize Christian Dior Atelier",
+    "description": "Jersey de coton noir",
+    "price": "550,00 €",
+    "essential": true
+  },
+  {
+    "imageSource": "T-shirt_oversize_Christian_Dior_Atelier_Vue_de_face_Jersey_de_coton_blanc.jpg",
+    "imageDescription": "T-shirt oversize Christian Dior Atelier Vue de face",
+    "title": "T-shirt oversize Christian Dior Atelier",
+    "description": "Jersey de coton blanc",
+    "price": "550,00 €",
+    "essential": true
+  },
+  {
+    "imageSource": "T-shirt_oversize_DIOR_AND_JUDY_BLAME_Vue_de_face_Jersey_de_coton_blanc.jpg",
+    "imageDescription": "T-shirt oversize DIOR AND JUDY BLAME Vue de face",
+    "title": "T-shirt oversize DIOR AND JUDY BLAME",
+    "description": "Jersey de coton blanc",
+    "price": "600,00 €",
+    "isNew": true
+  },
+  {
+    "imageSource": "T-shirt_oversize_DIOR_AND_JUDY_BLAME_Vue_de_face_Jersey_de_coton_noir.jpg",
+    "imageDescription": "T-shirt oversize DIOR AND JUDY BLAME Vue de face",
+    "title": "T-shirt oversize DIOR AND JUDY BLAME",
+    "description": "Jersey de coton noir",
+    "price": "600,00 €",
+    "isNew": true
+  },
+  {
+    "imageSource": "Polo_DIOR_AND_JUDY_BLAME_Vue_de_face_Pique_de_coton_blanc.jpg",
+    "imageDescription": "Polo DIOR AND JUDY BLAME Vue de face",
+    "title": "Polo DIOR AND JUDY BLAME",
+    "description": "Piqué de coton blanc",
+    "price": "600,00 €",
+    "isNew": true
+  },
+  {
+    "imageSource": "T-shirt_a_motif_Dior_Oblique_Vue_de_face_Jersey_blanc_devore.jpg",
+    "imageDescription": "T-shirt à motif Dior Oblique Vue de face",
+    "title": "T-shirt à motif Dior Oblique",
+    "description": "Jersey blanc dévoré",
+    "price": "590,00 €"
+  },
+  {
+    "imageSource": "T-shirt_oversize_DIOR_AND_SHAWN_Vue_de_face_Coton_blanc.jpg",
+    "imageDescription": "T-shirt oversize DIOR AND SHAWN Vue de face",
+    "title": "T-shirt oversize DIOR AND SHAWN",
+    "description": "Coton blanc",
+    "price": "550,00 €"
+  },
+  {
+    "imageSource": "T-shirt_oversize_DIOR_AND_SHAWN_Vue_de_face_Jersey_de_coton_noir.jpg",
+    "imageDescription": "T-shirt oversize DIOR AND SHAWN Vue de face",
+    "title": "T-shirt oversize DIOR AND SHAWN",
+    "description": "Jersey de coton noir",
+    "price": "550,00 €"
+  },
+  {
+    "imageSource": "T-shirt_oversize_Vue_de_face_Jersey_de_coton_noir.jpg",
+    "imageDescription": "T-shirt oversize Vue de face",
+    "title": "T-shirt oversize",
+    "description": "Jersey de coton noir",
+    "price": "650,00 €"
+  },
+  {
+    "imageSource": "DIOR_AND_SHAWN_Oversized_T-Shirt_.jpg",
+    "imageDescription": "DIOR AND SHAWN Oversized T-Shirt ",
+    "demo": true
+  },
+  {
+    "imageSource": "T-shirt_oversize_DIOR_AND_SHAWN_Vue_de_face_Jersey_de_coton_gris.jpg",
+    "imageDescription": "T-shirt oversize DIOR AND SHAWN Vue de face",
+    "title": "T-shirt oversize DIOR AND SHAWN",
+    "description": "Jersey de coton gris",
+    "price": "600,00 €"
+  },
+  {
+    "imageSource": "T-shirt_oversize_DIOR_AND_SHAWN_Vue_de_face_Jersey_de_coton_rose.jpg",
+    "imageDescription": "T-shirt oversize DIOR AND SHAWN Vue de face",
+    "title": "T-shirt oversize DIOR AND SHAWN",
+    "description": "Jersey de coton rose",
+    "price": "600,00 €"
+  },
+  {
+    "imageSource": "T-shirt_DIOR_AND_SHAWN_Vue_de_face_Coton_blanc.jpg",
+    "imageDescription": "T-shirt DIOR AND SHAWN Vue de face",
+    "title": "T-shirt DIOR AND SHAWN",
+    "description": "Coton blanc",
+    "price": "500,00 €"
+  },
+  {
+    "imageSource": "T-shirt_oversize_DIOR_AND_SHAWN_Vue_de_face_Jersey_de_coton_blanc.jpg",
+    "imageDescription": "T-shirt oversize DIOR AND SHAWN Vue de face",
+    "title": "T-shirt oversize DIOR AND SHAWN",
+    "description": "Jersey de coton blanc",
+    "price": "550,00 €"
+  },
+  {
+    "imageSource": "T-shirt_CD_Icon_Vue_de_face_Coton_rose.jpg",
+    "imageDescription": "T-shirt CD Icon Vue de face",
+    "title": "T-shirt CD Icon",
+    "description": "Coton rose",
+    "price": "450,00 €"
+  },
+  {
+    "imageSource": "T-shirt_CD_Icon_Vue_de_face_Coton_vert.jpg",
+    "imageDescription": "T-shirt CD Icon Vue de face",
+    "title": "T-shirt CD Icon",
+    "description": "Coton vert",
+    "price": "450,00 €"
+  },
+  {
+    "imageSource": "T-shirt_CD_Icon_Vue_de_face_Jersey_de_coton_gris.jpg",
+    "imageDescription": "T-shirt CD Icon Vue de face",
+    "title": "T-shirt CD Icon",
+    "description": "Jersey de coton gris",
+    "price": "450,00 €"
+  },
+  {
+    "imageSource": "T-shirt_CD_Icon_Vue_de_face_Jersey_compact_de_coton_noir.jpg",
+    "imageDescription": "T-shirt CD Icon Vue de face",
+    "title": "T-shirt CD Icon",
+    "description": "Jersey compact de coton noir",
+    "price": "500,00 €",
+    "essential": true
+  },
+  {
+    "imageSource": "T-shirt_CD_Icon_Vue_de_face_Coton_blanc.jpg",
+    "imageDescription": "T-shirt CD Icon Vue de face",
+    "title": "T-shirt CD Icon",
+    "description": "Coton blanc",
+    "price": "450,00 €",
+    "essential": true
+  },
+  {
+    "imageSource": "T-shirt_CD_Icon_Vue_de_face_Jersey_compact_de_coton_blanc.jpg",
+    "imageDescription": "T-shirt CD Icon Vue de face",
+    "title": "T-shirt CD Icon",
+    "description": "Jersey compact de coton blanc",
+    "price": "500,00 €",
+    "essential": true
+  },
+  {
+    "imageSource": "T-shirt_CD_Icon_Vue_de_face_Coton_noir.jpg",
+    "imageDescription": "T-shirt CD Icon Vue de face",
+    "title": "T-shirt CD Icon",
+    "description": "Coton noir",
+    "price": "450,00 €",
+    "essential": true
+  },
+  {
+    "imageSource": "T-shirt_CD_Icon_Vue_de_face_Jersey_de_coton_bleu_marine.jpg",
+    "imageDescription": "T-shirt CD Icon Vue de face",
+    "title": "T-shirt CD Icon",
+    "description": "Jersey de coton bleu marine",
+    "price": "450,00 €"
+  },
+  {
+    "imageSource": "T-shirt_a_broderie_abeille_Vue_de_face_Coton_blanc.jpg",
+    "imageDescription": "T-shirt à broderie abeille Vue de face",
+    "title": "T-shirt à broderie abeille",
+    "description": "Coton blanc",
+    "price": "350,00 €",
+    "essential": true
+  },
+  {
+    "imageSource": "T-shirt_a_broderie_abeille_Vue_de_face_Coton_noir.jpg",
+    "imageDescription": "T-shirt à broderie abeille Vue de face",
+    "title": "T-shirt à broderie abeille",
+    "description": "Coton noir",
+    "price": "350,00 €",
+    "essential": true
+  },
+  {
+    "imageSource": "Polo_a_broderie_abeille_Vue_de_face_Pique_de_coton_bleu_marine.jpg",
+    "imageDescription": "Polo à broderie abeille Vue de face",
+    "title": "Polo à broderie abeille",
+    "description": "Piqué de coton bleu marine",
+    "price": "400,00 €",
+    "essential": true
+  },
+  {
+    "imageSource": "Polo_a_broderie_abeille_Vue_de_face_Pique_de_coton_noir.jpg",
+    "imageDescription": "Polo à broderie abeille Vue de face",
+    "title": "Polo à broderie abeille",
+    "description": "Piqué de coton noir",
+    "price": "400,00 €",
+    "essential": true
+  },
+  {
+    "imageSource": "Polo_a_broderie_abeille_Vue_de_face_Pique_de_coton_blanc.jpg",
+    "imageDescription": "Polo à broderie abeille Vue de face",
+    "title": "Polo à broderie abeille",
+    "description": "Piqué de coton blanc",
+    "price": "400,00 €",
+    "essential": true
+  },
+  {
+    "imageSource": "Polo_a_manches_longues_et_broderie_abeille_Dior_Vue_de_face_Laine_noire.jpg",
+    "imageDescription": "Polo à manches longues et broderie abeille Dior Vue de face",
+    "title": "Polo à manches longues et broderie abeille Dior",
+    "description": "Laine noire",
+    "price": "650,00 €"
+  },
+  {
+    "imageSource": "Pull_a_col_montant_zippe_Vue_de_face_Laine_bleu_marine.jpg",
+    "imageDescription": "Pull à col montant zippé Vue de face",
+    "title": "Pull à col montant zippé",
+    "description": "Laine bleu marine",
+    "price": "950,00 €",
+    "isNew": true
+  },
+  {
+    "imageSource": "Polo_CD_Icon_Vue_de_face_Pique_de_coton_noir.jpg",
+    "imageDescription": "Polo CD Icon Vue de face",
+    "title": "Polo CD Icon",
+    "description": "Piqué de coton noir",
+    "price": "500,00 €",
+    "essential": true
+  },
+  {
+    "imageSource": "Polo_CD_Icon_Vue_de_face_Pique_de_coton_gris.jpg",
+    "imageDescription": "Polo CD Icon Vue de face",
+    "title": "Polo CD Icon",
+    "description": "Piqué de coton gris",
+    "price": "500,00 €"
+  },
+  {
+    "imageSource": "Polo_CD_Icon_Vue_de_face_Pique_de_coton_blanc.jpg",
+    "imageDescription": "Polo CD Icon Vue de face",
+    "title": "Polo CD Icon",
+    "description": "Piqué de coton blanc",
+    "price": "500,00 €",
+    "essential": true
+  },
+  {
+    "imageSource": "Polo_CD_Icon_Vue_de_face_Pique_de_coton_bleu_marine.jpg",
+    "imageDescription": "Polo CD Icon Vue de face",
+    "title": "Polo CD Icon",
+    "description": "Piqué de coton bleu marine",
+    "price": "500,00 €",
+    "essential": true
+  }
+]

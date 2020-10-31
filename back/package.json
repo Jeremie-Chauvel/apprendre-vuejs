@@ -1,0 +1,20 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "offline-install": "npmunbox ./install/express.npmbox -S",
+    "dev:scrap-catalog": "node ./scrapper/catalogPage.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "puppeteer": "5.3.1"
+  }
+}
