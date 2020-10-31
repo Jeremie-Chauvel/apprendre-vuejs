@@ -12,24 +12,27 @@ Comme souligné dans l'article, je recommande _fortement_ d'utiliser un gestionn
 
 Pour pouvoir installer des packages npm hors ligne, nous utiliserons npmbox.
 
-Script bash d'installation en une étape (linux/OSX):
+### Script bash d'installation en une étape (linux/OSX)
 
 ```bash
 bash ./tutorial/installingNodeJsAndNPM/install.sh
 ```
 
-### Installer npmbox
+### Installation manuelle
 
-Pour installer npmbox, sous linux et OSX (mac) lancé les commandes suivante dans [ce dossier : `tutorial/installingNodeJsAndNPM`](.):
+#### Installer npmbox
+
+Pour installer npmbox, sous linux et OSX (mac) lances les commandes suivantes, [depuis la racine du projet](../../):
 
 ```bash
+cd tutorial/installingNodeJsAndNPM
 tar --no-same-owner --no-same-permissions -xvzf npmbox.npmbox
 npm install --global --cache ./.npmbox.cache --optional --cache-min 99999999999 --shrinkwrap false npmbox
 ```
 
-### Installer http-server pour servir des fichier static
+#### Installer http-server pour servir des fichier static
 
-Une fois npmbox installé, dans ce dossier lancé la commande:
+Une fois npmbox installé, dans le même dossier lances la commande:
 
 ```bash
 npmbox --global http-server.npmbox
