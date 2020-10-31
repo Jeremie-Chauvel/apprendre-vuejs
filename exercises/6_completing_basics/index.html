@@ -37,7 +37,16 @@
   <script>
     var app = new Vue({
       el: '#app',
-      created: function () {},
+      created: async function () {
+        try {
+          const response = await fetch(
+            'http://localhost:3000/catalog/man/polos-t-shirts'
+          );
+          this.products = await response.json();
+        } catch (error) {
+          console.error(error);
+        }
+      },
       data: {
         pageName: 'T-SHIRTS & POLOS',
         pageDescription:
