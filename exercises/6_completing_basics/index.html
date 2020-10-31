@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Polos & T-Shirts | DIOR</title>
+    <script src="./dev_vue.js"></script>
+  </head>
+  <body>
+    <div class="page-container" id="app">
+      <h1>Dior</h1>
+      <h2>{{ pageName }}</h2>
+      <h3>{{ pageDescription }}</h3>
+      <div class="filters-container">
+        <span
+          >Couleur:
+          <select v-model="colorFilter">
+            <option value="all">toutes</option>
+            <option value="lightGrey">gris clair</option>
+            <option value="darkGrey">gris foncé</option>
+          </select>
+        </span>
+      </div>
+      <product-listing
+        :products="products"
+        :color-filter="colorFilter"
+      ></product-listing>
+    </div>
+  </body>
+  <script src="./composants/product-item/product-item.js"></script>
+  <link href="./composants/product-item/product-item.css" rel="stylesheet" />
+  <script src="./composants/product-listing/product-listing.js"></script>
+  <link
+    href="./composants/product-listing/product-listing.css"
+    rel="stylesheet"
+  />
+  <script>
+    var app = new Vue({
+      el: '#app',
+      created: function () {},
+      data: {
+        pageName: 'T-SHIRTS & POLOS',
+        pageDescription:
+          'Confectionné avec les meilleurs cotons, le Jersey Dior Men assure une silhouette contemporaine et décontractée.',
+        products: [],
+        colorFilter: 'all',
+      },
+    });
+  </script>
+  <style>
+    .page-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .filters-container {
+      width: calc(100% - 2 * 20px);
+      margin: 10px 20px 0;
+      padding: 10px;
+      border: 1px solid #e5e5e5;
+      border-width: 1px 0;
+    }
+  </style>
+</html>
