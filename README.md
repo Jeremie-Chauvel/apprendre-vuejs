@@ -53,10 +53,8 @@ Pour débuter, commence par la première section: [Pourquoi utiliser un framewor
 
 ### Développer une application javascript vuejs moderne
 
-1. Pourquoi les balises script ne suffisent plus
-1. Avantages
+1. [Pourquoi les balises script ne suffisent plus](./tutorial/whyScriptTagsAreNotEnough/README.md)
 1. [Qu'est qu'un bundler ?](https://medium.com/better-programming/the-battle-of-bundlers-6333a4e3eda9#:~:text=Just%20install%20Parcel%20and%20run,%2C%20but%20webpack%20doesn't.)
-1. Primer sur Webpack
 1. Primer sur Babel et la transcompilation
 1. J'utilise directement vue-cli pour générer mon projet
 1. Avantage des composants monofichiers (single file component) pour vuejs
